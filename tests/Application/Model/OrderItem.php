@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Tests\Setono\SyliusGiftCardPlugin\Application\Model;
 
 use Doctrine\ORM\Mapping as ORM;
-use Setono\SyliusGiftCardPlugin\Model\OrderItemTrait;
 use Setono\SyliusGiftCardPlugin\Model\ProductInterface;
 use Sylius\Component\Core\Model\OrderItem as BaseOrderItem;
 
@@ -17,5 +16,4 @@ use Sylius\Component\Core\Model\OrderItem as BaseOrderItem;
  */
 class OrderItem extends BaseOrderItem
 {
-    use OrderItemTrait;
 }
