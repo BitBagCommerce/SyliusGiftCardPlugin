@@ -33,6 +33,9 @@
         <!-- Refers to the order item unit where this gift card was bought -->
         <one-to-one field="orderItemUnit" target-entity="Sylius\Component\Order\Model\OrderItemUnitInterface"
                     inversed-by="giftCard">
+            <cascade>
+                <cascade-all/>
+            </cascade>
             <join-column name="order_item_unit_id" referenced-column-name="id" on-delete="CASCADE"/>
         </one-to-one>
 

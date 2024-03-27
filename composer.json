@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "sylius-plugin",
     "require": {
-        "php": ">=7.4",
+        "php": "^8.0",
         "ext-filter": "*",
         "ext-mbstring": "*",
         "api-platform/core": "^2.6",
@@ -68,8 +68,7 @@
         "psalm/plugin-symfony": "^5.0",
         "setono/code-quality-pack": "^2.6",
         "setono/sylius-behat-pack": "^0.2.2",
-        "setono/sylius-catalog-promotion-plugin": "^0.4.8 || ^0.5",
-        "sylius/sylius": "~1.10.14",
+        "sylius/sylius": "~1.12.0",
         "symfony/debug-bundle": "^5.4 || ^6.0",
         "symfony/dotenv": "^5.4 || ^6.0",
         "symfony/framework-bundle": "^5.4 || ^6.0",
